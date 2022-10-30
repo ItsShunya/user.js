@@ -16,3 +16,7 @@ user_pref("network.http.referer.XOriginPolicy", 0);                  /* 1601: co
 
 /* DRM content (Netflix) */
 user_pref("media.eme.enabled", false);                               /* 2022: disable all DRM content (EME: Encryption Media Extension) */
+
+/* Enable or disable IPv6 */
+/* Causes localhost and 127.0.0.1 with a port number to not work. */
+user_pref("network.dns.disableIPv6", false);						 /* 0701: disable IPv6
